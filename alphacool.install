@@ -1,0 +1,14 @@
+post_install() {
+	depmod
+	modprobe alphacool
+	ldconfig
+}
+
+post_upgrade() {
+	modprobe -r alphacool
+	modprobe alphacool
+}
+
+post_remove() {
+	modprobe -r alphacool
+}
