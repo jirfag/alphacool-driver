@@ -1,9 +1,9 @@
 ﻿#include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "alphacool/simple_data_provider.hpp"
-#include "alphacool/lcd_command.hpp"
-#include "alphacool/std_data_visualizer.hpp"
-#include "alphacool/current_time_data_provider.hpp"
+#include "simple_data_provider.hpp"
+#include "lcd_command.hpp"
+#include "std_data_visualizer.hpp"
+#include "current_time_data_provider.hpp"
 #include <QDateTime>
 #include <QMessageBox>
 #include <unistd.h>

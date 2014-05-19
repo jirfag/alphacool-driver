@@ -2,8 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "alphacool/lcd_application.hpp"
-#include "alphacool/lcd_string.hpp"
+#include "lcd_application.hpp"
+#include "lcd_string.hpp"
 #include <QTimer>
 #include <vector>
 
